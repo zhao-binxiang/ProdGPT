@@ -7,6 +7,7 @@ const nextConfig = {
       'cdn.openai.com',
       'upcdn.io',
       'replicate.delivery',
+      'pbxt.replicate.delivery',
     ],
   },
 };
