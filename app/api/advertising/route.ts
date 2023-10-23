@@ -9,6 +9,8 @@ const replicate = new Replicate({
   auth: process.env.REPLICATE_API_KEY!,
 });
 
+export const dynamic = "force-static";
+
 export async function POST(request: Request) {
   try {
     const { userId } = auth();
